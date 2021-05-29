@@ -14,7 +14,7 @@ jdk 8
     export M2_HOME=/opt/maven
     export PATH=${M2_HOME}/bin:${PATH}
 
-#Запуск самого приложения:
+# Запуск самого приложения:
 ./startHadoopContainer.sh hadoop-psql
 он запускает start.sh (который запускается внутри docker контейнера)
 
